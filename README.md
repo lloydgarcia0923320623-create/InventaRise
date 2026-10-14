@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://render.com/deploy?repo=https://github.com/lloydgarcia0923320623-create/InventaRise"><img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy InventaRise to Render" /></a>
+</p>
+
+<p align="center">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-8.4-777BB4?logo=php&logoColor=white" />
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white" />
   <img alt="Frontend" src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-0A84FF" />
@@ -69,6 +73,9 @@ php -S localhost:8000 -t web/my_website
 ```
 
 The SQLite databases are created automatically in `web/my_website/db/` the first time the app runs. Local database files are excluded from version control.
+
+## Deploy a demo
+Use the Deploy to Render button above and approve the blueprint in your Render account. The free demo uses SQLite on ephemeral storage: records may reset when the service restarts or redeploys, and the free instance may take a short time to wake. Use persistent storage and production-grade credentials before using it for real business data.
 
 ## Portfolio highlights
 - Real-world operational dashboard experience
